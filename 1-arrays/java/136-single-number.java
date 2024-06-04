@@ -1,4 +1,4 @@
-public class solution{
+public class Solution{
     public static int singleNumber(int[] nums){
         // (x^1)^1 = x
         int ans = 0;

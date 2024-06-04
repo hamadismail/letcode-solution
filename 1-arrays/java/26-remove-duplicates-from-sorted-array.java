@@ -1,4 +1,4 @@
-public class solution{
+public class Solution{
     public static int removeDuplicates(int[] nums){
         int lastUniqueIndex = 0;
 

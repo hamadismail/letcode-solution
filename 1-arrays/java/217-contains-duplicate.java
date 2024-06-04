@@ -1,5 +1,5 @@
 import java.util.HashSet;
-public class solution{
+public class Solution{
     public static boolean containsDuplicate(int[] nums) {
         HashSet<Integer> numbers = new HashSet<>();
         for(int num: nums){
