@@ -1,6 +1,6 @@
-# Master Coding Interviews: LeetCode Solutions in C++ and Java
+# LeetCode Solutions in C++ and Java
 
-This repository contains solutions to various LeetCode problems in C++ and Java.
+"Master Coding Interviews: LeetCode Solutions in C++ and Java"
 
 ## Running the Code
 
