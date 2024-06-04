@@ -6,7 +6,36 @@ This repository contains solutions to various LeetCode problems in C++ and Java.
 
 **C++:**
 
-The C++ solutions can be compiled and run using your preferred C++ compiler. 
+1. **Local Execution:**
+    * Compile the C++ solution using a C++ compiler (e.g., `g++ solution.cpp -o solution`).
+    * Run the compiled executable (e.g., `./solution`).
+
+2. **LeetCode Submission:**
+    * **Important:** LeetCode typically removes the `main` method before evaluating your code.
+    * **To submit your code:**
+        * **Remove the `int main(){ ... }` block** from your solution file.
+        * **Place your solution function (e.g., `removeDuplicates`) inside a class named `Solution` with a public member function of the same name.** This function will be called by LeetCode with the provided input.
+
+**Example:**
+
+Here's the modified `26-remove-duplicates-from-sorted-array` program integrated into a `Solution` class, ready for LeetCode submission:
+
+```c++
+class Solution {
+public:
+  int removeDuplicates(vector<int>& nums) {
+    int lastIndex = 0;
+
+    for (int i = 1; i < nums.size(); i++) {
+      if (nums[lastIndex] != nums[i]) {
+        nums[lastIndex + 1] = nums[i];
+        lastIndex++;
+      }
+    }
+    return lastIndex + 1;
+  }
+};
+```
 
 **Java:**
 
