@@ -1,6 +1,6 @@
 # LeetCode Solutions in C++ and Java
 
-"Master Coding Interviews: LeetCode Solutions in C++ and Java"
+Master Coding Interviews: LeetCode Solutions in C++ and Java
 
 ## Running the Code
 
