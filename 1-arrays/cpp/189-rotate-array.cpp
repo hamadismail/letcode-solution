@@ -25,7 +25,6 @@ void reverse(vector<int>& nums, int start, int end){
 
 int main(){
     vector<int> nums = {1,2,3,4,5,6,7};
-    vector<int> ans;
     rotate(nums, 3);
 
     for(int num: nums){
