@@ -37,14 +37,6 @@ public:
 };
 ```
 
-**Explanation:**
-
-- The instructions for C++ LeetCode submission now explicitly state the need for a `Solution` class and a public member function with the same name as your solution function.
-- The provided example demonstrates how to integrate the `removeDuplicates` function into the `Solution` class.
-- Additional notes remain for clarity and potential future expansion.
-
-This refined README.md effectively guides users on preparing their C++ code for LeetCode submission, ensuring it adheres to the platform's requirements.
-
 **Java:**
 
 1. **Local Execution:**
