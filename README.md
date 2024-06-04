@@ -1,4 +1,4 @@
-# LeetCode Solutions in C++ and Java
+# LeetCode Solutions
 
 Master Coding Interviews: LeetCode Solutions in C++ and Java
 
