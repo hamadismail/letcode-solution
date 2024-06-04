@@ -1,4 +1,4 @@
-# LeetCode Solutions
+# Master Coding Interviews: LeetCode Solutions in C++ and Java
 
 This repository contains solutions to various LeetCode problems in C++ and Java.
 
