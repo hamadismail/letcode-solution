@@ -11,19 +11,18 @@ The C++ solutions can be compiled and run using your preferred C++ compiler.
 **Java:**
 
 1. **Local Execution:**
-    * Rename the Java solution file to `solution.java`.
-    * Compile the code using a Java compiler (e.g., `javac solution.java`).
-    * Run the code using the `java` command (e.g., `java solution`).
+    * Rename the Java solution file to `Solution.java`.
+    * Compile the code using a Java compiler (e.g., `javac Solution.java`).
+    * Run the code using the `java` command (e.g., `java Solution`).
 
 2. **LeetCode Submission:**
     * **Important:** LeetCode typically removes the `main` method before evaluating your code.
     * **To submit your code:**
         * **Remove the `public static void main(String args[]) {...}` block** from your solution file. LeetCode will provide the input data for testing.
-        * **Ensure your solution function (`removeDuplicates` in this example) works correctly without the `main` method included.**
 
 **Example:**
 
-Here's the provided `removeDuplicates` function with the `main` method removed for LeetCode submission:
+Here's the provided `26-remove-duplicates-from-sorted-array` program with the `main` method removed for LeetCode submission:
 
 ```java
 public class Solution { // Renamed to Solution (optional)
@@ -39,7 +38,7 @@ public class Solution { // Renamed to Solution (optional)
     return lastUniqueIndex + 1;
   }
 }
-
+```
 ## Contributing
 
 Feel free to contribute solutions to new LeetCode problems by following these steps:
