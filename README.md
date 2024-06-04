@@ -16,8 +16,29 @@ The C++ solutions can be compiled and run using your preferred C++ compiler.
     * Run the code using the `java` command (e.g., `java solution`).
 
 2. **LeetCode Submission:**
-    * LeetCode typically removes the `main` method before evaluating your code. 
-    * Ensure your solution functions correctly without the `main` method included in your submission.
+    * **Important:** LeetCode typically removes the `main` method before evaluating your code.
+    * **To submit your code:**
+        * **Remove the `public static void main(String args[]) {...}` block** from your solution file. LeetCode will provide the input data for testing.
+        * **Ensure your solution function (`removeDuplicates` in this example) works correctly without the `main` method included.**
+
+**Example:**
+
+Here's the provided `removeDuplicates` function with the `main` method removed for LeetCode submission:
+
+```java
+public class Solution { // Renamed to Solution (optional)
+  public int removeDuplicates(int[] nums) {
+    int lastUniqueIndex = 0;
+
+    for (int i = 1; i < nums.length; i++) {
+      if (nums[lastUniqueIndex] != nums[i]) {
+        nums[lastUniqueIndex + 1] = nums[i];
+        lastUniqueIndex++;
+      }
+    }
+    return lastUniqueIndex + 1;
+  }
+}
 
 ## Contributing
 
@@ -33,5 +54,5 @@ Feel free to contribute solutions to new LeetCode problems by following these st
 
 ## License
 
-<! -- This repository is licensed under the [MIT License](https://choosealicense.com/licenses/mit/). -->
+<!-- This repository is licensed under the [MIT License](https://choosealicense.com/licenses/mit/). -->
 
