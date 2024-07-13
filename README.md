@@ -80,7 +80,9 @@ Feel free to contribute solutions to new LeetCode problems by following these st
 4. Add a README.md file to the problem folder if necessary (e.g., for specific instructions).
 5. Submit a pull request to add your solution to the repository.
 
+<!--
 ## License
 
-<!-- This repository is licensed under the [MIT License](https://choosealicense.com/licenses/mit/). -->
+This repository is licensed under the [MIT License](https://choosealicense.com/licenses/mit/).
+-->
 
